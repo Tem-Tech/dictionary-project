@@ -1,4 +1,5 @@
 import Header from "./header";
+import DictionarySearch from "./dictionary";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
+      <main>
+        <DictionarySearch />
+      </main>
     </div>
   );
 }

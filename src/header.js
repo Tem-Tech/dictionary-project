@@ -1,5 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./App.css";
+
 export default function Header() {
   return (
     <div>
@@ -48,7 +49,7 @@ export default function Header() {
           <div class="theme-switch">
             <input type="checkbox" className="checkbox" id="checkbox" />
             <label for="checkbox" className="label">
-              <FontAwesomeIcon icon="coffee" aria-hidden="true" />
+              <i className="fas fa-moon" aria-hidden="true"></i>
 
               <i className="fas fa-lightbulb" aria-hidden="true"></i>
               <div className="switcher"></div>
